@@ -3,7 +3,7 @@
 #################
 
 module "nat_gateway_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=master"
+  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=main"
   attributes = var.attributes
   delimiter  = var.delimiter
   enabled    = var.enabled
@@ -14,7 +14,7 @@ module "nat_gateway_label" {
 }
 
 module "subnet_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=master"
+  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=main"
   attributes = var.attributes
   delimiter  = var.delimiter
   enabled    = var.enabled
@@ -25,7 +25,7 @@ module "subnet_label" {
 }
 
 module "vpc_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=master"
+  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=main"
   attributes = var.attributes
   delimiter  = var.delimiter
   enabled    = var.enabled
